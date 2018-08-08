@@ -1,6 +1,7 @@
 * {
 	margin: 5px;
 	padding: 4px;
+	background-color: black;
 	
 }
 
@@ -8,5 +9,6 @@ body {
 
 	font-size: 120%;
 	font-family: verdana;
+	color: white;
 	
 }
