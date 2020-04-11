@@ -2,7 +2,8 @@ body {
 	font-size: 120%;
 	font-family: verdana;
 	color: white;
-	
+	background-image:url(https://img.wonderhowto.com/img/69/07/63620327870894/0/null-byte.1280x600.jpg);
+	background-size:cover;
 }
 
 .image {
@@ -10,4 +11,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+
+#footer{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
