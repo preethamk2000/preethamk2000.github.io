@@ -1,0 +1,58 @@
+body {
+    font-family: pixelFont;
+    background-image: url('assets/images/darkbg.jpg');
+}
+
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
+
+.myimg {
+    /* width: 55%;
+    height: 80%; */
+    padding: 0px;
+    border: 12px inset whitesmoke;
+}
+
+/* div .front .container{
+    position: static !important;
+} */
+
+#btntext {
+    font-size: 2rem;
+}
+
+@font-face {
+    font-family: pixelFont;
+    src: url('assets/fonts/VT323-Regular.ttf');
+}
+
+.back {
+    background: black;
+}
+
+h1 {
+    color: crimson;
+}
+
+.h1 {
+    color: cyan;
+}
