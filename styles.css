@@ -7,7 +7,7 @@ html {
     font-size: 1rem;
   }
   
-  @include media-breakpoint-up(sm) {
+  /* @include media-breakpoint-up(sm) {
     html {
       font-size: 1.2rem;
     }
@@ -23,7 +23,52 @@ html {
     html {
       font-size: 1.6rem;
     }
+  } */
+
+  .myicons, .rightarrow {
+    font-size:36px;
+    color: cyan;
   }
+
+  @media screen and (max-width: 1150px) {
+    html {
+      font-size: 1.5rem;
+    }
+
+    .mobilechange {
+      display: none;
+    }
+
+    .myicons, .rightarrow {
+      font-size: 43px;
+      color: cyan;
+    }
+
+    .social-icons {
+      padding: 5px;
+      list-style: none;
+      margin: 1em;
+    }
+    
+    .social-icons li {
+      display: inline-block;
+      margin: 0.5em;
+      position: relative;
+    }
+    
+    .social-icons i {
+      color:cyan;
+      font-size: 48px;
+      /* position: absolute; */
+      top: 0.95em;
+      left: 0.96em;
+      transition: all 265ms ease-out;
+    }
+    
+    .social-icons a {
+      display: inline-block;
+    }
+}
 
 .myimg {
     /* width: 55%;
@@ -31,10 +76,6 @@ html {
     padding: 0px;
     border: 12px inset whitesmoke;
 }
-
-/* div .front .container{
-    position: static !important;
-} */
 
 #btntext {
     font-size: 2rem;
@@ -45,14 +86,79 @@ html {
     src: url('assets/fonts/VT323-Regular.ttf');
 }
 
-.back {
+.blackbg {
     background: black;
 }
 
-h1 {
-    color: crimson;
+
+/* h1 {
+    color: greenyellow;
+} */
+
+.h1, .h2{
+    color: cyan;
 }
 
-.h1 {
-    color: cyan;
+/* .playerimg {
+  background: darkcyan;
+  border: 10px dashed orangered;
+  width: 75%;
+} */
+
+@media screen and (min-width: 1200px) {
+
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0.15em;
+  position: relative;
+  font-size: 1em;
+}
+
+.social-icons i {
+  color: #fff;
+  position: absolute;
+  top: 0.95em;
+  left: 0.96em;
+  transition: all 265ms ease-out;
+}
+
+.social-icons a {
+  display: inline-block;
+}
+
+.social-icons a:before {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  content: " ";
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  display: block;
+  background: linear-gradient(45deg, #ff003c, #c648c8);
+  transition: all 265ms ease-out;
+}
+
+.social-icons a:hover:before {
+  transform: scale(0);
+  transition: all 265ms ease-in;
+}
+
+.social-icons a:hover i {
+  transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  -webkit-transform: scale(2.2);
+  color: #ff003c;
+  background: -webkit-linear-gradient(45deg, #ff003c, #c648c8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 265ms ease-in;
+}
+
 }
