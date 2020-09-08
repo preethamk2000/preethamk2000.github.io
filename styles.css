@@ -6,68 +6,55 @@ body {
 html {
     font-size: 1rem;
   }
-  
-  /* @include media-breakpoint-up(sm) {
-    html {
-      font-size: 1.2rem;
-    }
+
+.myicons, .rightarrow {
+  font-size:36px;
+  color: cyan;
+}
+
+.rick {
+  color: greenyellow;
+  border: 2px solid greenyellow;
+}
+
+@media screen and (max-width: 1150px) {
+  html {
+    font-size: 1.5rem;
   }
-  
-  @include media-breakpoint-up(md) {
-    html {
-      font-size: 1.4rem;
-    }
+
+  .mobilechange {
+    display: none;
   }
-  
-  @include media-breakpoint-up(lg) {
-    html {
-      font-size: 1.6rem;
-    }
-  } */
 
   .myicons, .rightarrow {
-    font-size:36px;
+    font-size: 43px;
     color: cyan;
   }
 
-  @media screen and (max-width: 1150px) {
-    html {
-      font-size: 1.5rem;
-    }
-
-    .mobilechange {
-      display: none;
-    }
-
-    .myicons, .rightarrow {
-      font-size: 43px;
-      color: cyan;
-    }
-
-    .social-icons {
-      padding: 5px;
-      list-style: none;
-      margin: 1em;
-    }
-    
-    .social-icons li {
-      display: inline-block;
-      margin: 0.5em;
-      position: relative;
-    }
-    
-    .social-icons i {
-      color:cyan;
-      font-size: 48px;
-      /* position: absolute; */
-      top: 0.95em;
-      left: 0.96em;
-      transition: all 265ms ease-out;
-    }
-    
-    .social-icons a {
-      display: inline-block;
-    }
+  .social-icons {
+    padding: 5px;
+    list-style: none;
+    margin: 1em;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin: 0.5em;
+    position: relative;
+  }
+  
+  .social-icons i {
+    color:cyan;
+    font-size: 48px;
+    /* position: absolute; */
+    top: 0.95em;
+    left: 0.96em;
+    transition: all 265ms ease-out;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+  }
 }
 
 .myimg {
@@ -88,12 +75,9 @@ html {
 
 .blackbg {
     background: black;
+    border: 5px inset cyan;
+    /* border-image: radial-gradient( #ff003c, #c648c8) 1; */
 }
-
-
-/* h1 {
-    color: greenyellow;
-} */
 
 .h1, .h2{
     color: cyan;
