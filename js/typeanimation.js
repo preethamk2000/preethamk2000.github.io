@@ -1,6 +1,6 @@
 var i = 0,j = 0;
 var txt_arr = [" Hi! I'm Preetham ",
-               " Junior CS UG ",
+               " Senior CS UG ",
                " S/W Developer ",
                " ML/DL enthusiast ",
                " Love CTFs ",
