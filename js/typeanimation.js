@@ -1,14 +1,12 @@
 var i = 0,j = 0;
 var txt_arr = [" Hi! I'm Preetham ",
-               " Senior CS UG ",
-               " S/W Developer ",
+               " S/W Engineer ",
                " ML/DL enthusiast ",
                " Love CTFs ",
                " Flip for more info",
                " All hail "];
 
 var icons_arr = ["<i class='fas fa-user-secret myicons'></i>",
-                 "<i class='fas fa-desktop myicons' ></i>",
                  "<i class='fas fa-keyboard myicons'></i>",
                  "<i class='fas fa-dice-d20 myicons'></i>",
                  "<i class='fa fa-flag' myicons></i>",
